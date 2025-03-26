@@ -4,16 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Backgrounds & Shadows</title>
   </head>
   <body>
     <!-- Background Classes -->
-
+    <div class="bg-no-repeat h-screen w-full text-white" style="background-image: url('../assets/img/img1.jpg');">Hello</div>
+    <div class="h-screen w-full bg-repeat-x" style="background-image: url('../assets/img/img1.jpg');">Hello</div>
     <!-- Gradients -->
+
+    <div class="h-62 w-full bg-gradient-to-r from-orange-300 to-red-400"></div>
+    <div class="h-62 w-full bg-gradient-to-r from-orange-700 to-white"></div>
+    <div class="h-62 w-full bg-gradient-to-l from-pink-600 to-red-400"></div>
+    <div class="h-62 w-full bg-gradient-to-br from-green-700 to-green-200"></div>
+    <div class="h-62 w-full bg-gradient-to-t from-yellow-600 to-orange-900"></div>
 
     <!-- Shadows -->
 
+    <div class="text-center mt-4 ml-4 shadow">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, repellendus.
+    </div>
+    <div class="text-center mt-4 ml-4 shadow-sm">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, repellendus.
+    </div>
+    <div class="text-center mt-4 ml-4 shadow-xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, repellendus.
+    </div>
+    <div class="text-center mt-4 ml-4 shadow-lg shadow-red-500/100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptatem ratione ea aperiam ut. Dolores repellendus vel nam facilis consequatur.
+    </div>
+    <div class="text-center mt-4 ml-4 shadow-md shadow-green-500/100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptatem ratione ea aperiam ut. Dolores repellendus vel nam facilis consequatur.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam laborum perspiciatis maiores? Recusandae aut corrupti quasi dolor, excepturi quos expedita unde fugiat vel provident perspiciatis pariatur quisquam, cupiditate deserunt optio consequatur! Provident hic recusandae amet maiores impedit odit earum pariatur?
+    </div>
     <!-- Mix Blend -->
   </body>
 </html>
